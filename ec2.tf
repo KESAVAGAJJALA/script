@@ -7,6 +7,6 @@ resource "aws_instance" "instance" {
   associate_public_ip_address = true
   user_data                   = file("data.sh")
   tags = {
-    Name = "my public instance"
+    Name = "kesava instance"
   }
 }
