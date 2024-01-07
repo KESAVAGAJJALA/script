@@ -1,5 +1,5 @@
 resource "aws_instance" "instance" {
-  ami                         = "ami-09b91b4166e3eda84"
+  ami                         = "ami-0aa825d61d0d52fa4"
   instance_type               = "t2.micro"
   key_name                    = "kesava"
   vpc_security_group_ids      = ["${aws_security_group.demosg.id}"]
